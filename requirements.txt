@@ -1,2 +1,10 @@
 langgraph
+langchain_community
+langchain_core
+langchain_groq
+langchain_cohere
+tavily_python
+wikipedia
 ipykernel
+setuptools
+-e .
