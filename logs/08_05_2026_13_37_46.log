@@ -1,0 +1,7 @@
+{"timestamp": "2026-08-05T08:07:46.109487Z", "level": "info", "event": "GROQ_API_KEY loaded from environment"}
+{"timestamp": "2026-08-05T08:07:46.109487Z", "level": "info", "event": "COHERE_API_KEY loaded from environment"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-08-05T08:07:46.111486Z", "level": "info", "event": "YAML config loaded"}
+{"model": "embed-english-light-v3.0", "timestamp": "2026-08-05T08:07:46.111486Z", "level": "info", "event": "Loading embedding model"}
+HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+{"provider": "groq", "model": "openai/gpt-oss-120b", "timestamp": "2026-08-05T08:07:47.358748Z", "level": "info", "event": "Loading LLM"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

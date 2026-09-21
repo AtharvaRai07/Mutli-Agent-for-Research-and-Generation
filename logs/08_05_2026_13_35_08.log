@@ -1,0 +1,2 @@
+{"timestamp": "2026-08-05T08:05:08.705423Z", "level": "info", "event": "GROQ_API_KEY loaded from environment"}
+{"timestamp": "2026-08-05T08:05:08.705423Z", "level": "info", "event": "COHERE_API_KEY loaded from environment"}

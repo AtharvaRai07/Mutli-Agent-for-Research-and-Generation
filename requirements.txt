@@ -7,4 +7,5 @@ tavily_python
 wikipedia
 ipykernel
 setuptools
+structlog
 -e .
