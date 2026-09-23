@@ -1,5 +1,6 @@
 langgraph
 langchain_community
+langchain-tavily
 langchain_core
 langchain_groq
 langchain_cohere
@@ -8,4 +9,6 @@ wikipedia
 ipykernel
 setuptools
 structlog
+python-docx
+reportlab
 -e .
