@@ -1,4 +1,3 @@
-# models.py
 import operator
 from typing import Annotated, List
 from langgraph.graph import MessagesState
@@ -49,11 +48,12 @@ class SearchQuery(BaseModel):
 # -------------------------------
 # State Classes for Graphs
 # -------------------------------
+
 class GenerateAnalystsState(TypedDict):
     topic: str  # Research topic
     max_analysts: int  # Number of analysts to generate
     human_analyst_feedback: str  # Feedback from human
-    analysts: List[Analyst] # List of analysts generated
+    analysts: List[Analyst]  # List of analysts generated
 
 class InterviewState(MessagesState):
     max_num_turns: int  # Max interview turns allowed
