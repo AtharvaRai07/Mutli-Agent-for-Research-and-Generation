@@ -11,4 +11,12 @@ setuptools
 structlog
 python-docx
 reportlab
+fastapi
+uvicorn
+jinja2
+httpx
+aiofiles
+sqlalchemy
+bcrypt
+passlib
 -e .
