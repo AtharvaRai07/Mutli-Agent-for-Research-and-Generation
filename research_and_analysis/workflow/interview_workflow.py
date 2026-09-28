@@ -16,7 +16,7 @@ from research_and_analysis.logger.custom_logger import GLOBAL_LOGGER
 from research_and_analysis.exception.custom_exception import ResearchAnalystException
 
 
-class InterviewWorkflow:
+class InterviewGraphBuilder:
     """
     A class responsible for constructing and managing the Interview Graph workflow.
     Handles the process of:
