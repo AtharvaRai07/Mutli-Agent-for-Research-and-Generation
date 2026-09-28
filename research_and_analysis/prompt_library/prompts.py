@@ -13,7 +13,7 @@ CREATE_ANALYSTS_PROMPT = """You are tasked with creating a set of AI analyst per
 {human_analyst_feedback}
 
 3. Determine the most interesting themes based upon documents and / or feedback above.
-
+0
 4. Pick the top {max_analysts} themes.
 
 5. Assign one analyst to each theme."""
